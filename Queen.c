@@ -193,7 +193,7 @@ void deInizializzaRegina(Regina * r, Scacchiera *s) {
 }
 
 void OccupaCaselle(Regina * r, Scacchiera *s) {
-    int k = r->posizione.riga - r->posizione.colonna ;
+    int k = r->posizione.riga - r->posizione.colonna;
     int i = 1;
     int x = 1;
     int y = 1;
@@ -235,7 +235,7 @@ void OccupaCaselle(Regina * r, Scacchiera *s) {
 }
 
 void deOccupaCaselle(Regina * r, Scacchiera *s) {
-    int k = r->posizione.riga - r->posizione.colonna ;
+    int k = r->posizione.riga - r->posizione.colonna;
     int i = 1;
     int x = 1;
     int y = 1;
